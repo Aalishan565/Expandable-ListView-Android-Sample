@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ExpandableListViewPOC</string>
+
+    <array name="names">
+        <item>Aalishan</item>
+        <item>Aakash</item>
+        <item>Ankur</item>
+
+    </array>
+    <array name="aalishan_heading">
+        <item>MP</item>
+        <item>1234567989</item>
+        <item>Genpact</item>
+
+    </array>
+    <array name="aakash_heading">
+        <item>MP</item>
+        <item>74125896541</item>
+        <item>EST</item>
+    </array>
+    <array name="ankur_heading">
+        <item>UP</item>
+        <item>741258963</item>
+        <item>HCL</item>
+    </array>
+</resources>
