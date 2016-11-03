@@ -56,10 +56,12 @@ public class MainActivity extends AppCompatActivity {
                 ) {
             this.ankur.add(company1);
 
+        }for (int i=0;i<aalishan.size();i++){
+            data.put(this.name.get(i), this.aalishan);
+            data.put(this.name.get(i), this.aakash);
+            data.put(this.name.get(i), this.ankur);
+
         }
-        data.put(this.name.get(0), this.aalishan);
-        data.put(this.name.get(1), this.aakash);
-        data.put(this.name.get(2), this.ankur);
 
 
         mExpLvAdapter = new ExpLvAdapter(this, this.name, data);
